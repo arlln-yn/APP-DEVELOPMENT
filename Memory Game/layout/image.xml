@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <!-- First set of ImageViews -->
+    <ImageView
+        android:id="@+id/iv_11"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/cardbg"
+        app:layout_constraintEnd_toStartOf="@+id/iv_12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_12"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/cardbg"
+        app:layout_constraintEnd_toStartOf="@+id/iv_13"
+        app:layout_constraintStart_toEndOf="@+id/iv_11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_13"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/cardbg"
+        app:layout_constraintEnd_toStartOf="@+id/iv_14"
+        app:layout_constraintStart_toEndOf="@+id/iv_12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_14"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/cardbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_13"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Second set of ImageViews -->
+    <ImageView
+        android:id="@+id/iv_21"
+        android:scaleType="centerInside"
+        android:layout_marginStart="8dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_22"
+        app:layout_constraintTop_toBottomOf="@+id/iv_11" />
+
+    <ImageView
+        android:id="@+id/iv_22"
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toEndOf="@+id/iv_21"
+        app:layout_constraintEnd_toStartOf="@+id/iv_23"
+        app:layout_constraintTop_toBottomOf="@+id/iv_12" />
+
+    <ImageView
+        android:id="@+id/iv_23"
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toEndOf="@+id/iv_22"
+        app:layout_constraintEnd_toStartOf="@+id/iv_24"
+        app:layout_constraintTop_toBottomOf="@+id/iv_13" />
+
+    <ImageView
+        android:id="@+id/iv_24"
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toEndOf="@+id/iv_23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_14" />
+
+    <!-- Third set of ImageViews -->
+    <ImageView
+        android:id="@+id/iv_31"
+        android:scaleType="centerInside"
+        android:layout_marginStart="8dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_32"
+        app:layout_constraintTop_toBottomOf="@+id/iv_21" />
+
+    <ImageView
+        android:id="@+id/iv_32"
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toEndOf="@+id/iv_31"
+        app:layout_constraintEnd_toStartOf="@+id/iv_33"
+        app:layout_constraintTop_toBottomOf="@+id/iv_22" />
+
+    <ImageView
+        android:id="@+id/iv_33"
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toEndOf="@+id/iv_32"
+        app:layout_constraintEnd_toStartOf="@+id/iv_34"
+        app:layout_constraintTop_toBottomOf="@+id/iv_23" />
+
+    <ImageView
+        android:id="@+id/iv_34"
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toEndOf="@+id/iv_33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_24" />
+
+    <!-- Fourth set of ImageViews -->
+    <ImageView
+        android:id="@+id/iv_41"
+        android:scaleType="centerInside"
+        android:layout_marginStart="8dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_42"
+        app:layout_constraintTop_toBottomOf="@+id/iv_31" />
+
+    <ImageView
+        android:id="@+id/iv_42"
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toEndOf="@+id/iv_41"
+        app:layout_constraintEnd_toStartOf="@+id/iv_43"
+        app:layout_constraintTop_toBottomOf="@+id/iv_32" />
+
+    <ImageView
+        android:id="@+id/iv_43"
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toEndOf="@+id/iv_42"
+        app:layout_constraintEnd_toStartOf="@+id/iv_44"
+        app:layout_constraintTop_toBottomOf="@+id/iv_33" />
+
+    <ImageView
+        android:id="@+id/iv_44"
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/cardbg"
+        app:layout_constraintStart_toEndOf="@+id/iv_43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_34" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
